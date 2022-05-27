@@ -2,6 +2,6 @@
 <html>
 <body>
 <!-- <h2> Hello World: src/main/webapp/index.jsp</h2> -->
-<h2> <% out.ptint("asd"); %> : src/main/webapp/index.jsp</h2>
+<h2> <% out.print("asd"); %> : src/main/webapp/index.jsp</h2>
 </body>
 </html>
