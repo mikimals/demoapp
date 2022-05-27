@@ -12,7 +12,7 @@ public class Hello extends HttpServlet {
    public void init() throws ServletException {
       // Do required initialization
       message = "Hello World: src/main/java/Hello.java";
-      System.out.println("BUILD: " +System.getEnv());
+      System.out.println("BUILD: " +System.getenv("BUILD_TIME"));
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
